@@ -1,4 +1,7 @@
+//User Interface Logic
 $(document).ready(function() {
+
+    //Quiz Form
     $(".formOne").submit(function(event) {
         const racism = $("select#racism").val();
         const bias = $("select#bias").val();
