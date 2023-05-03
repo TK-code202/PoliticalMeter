@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.6.4.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Political Meter</title>
+</head>
+<body class="quiz">
+    <div class="container">
+        <div class="head-section">
+           
+
+            <!-- <div class="background">
+                <img src="img/pexels-photo-5090.jpeg" alt="">
+            </div> -->
+
+            <div class="logo-section">
+                <img src="img/logo.png" alt="logo">
+                <h4 class="mt-1 text-info">POLITICAL METER</h4>
+
+                <ul class="nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="quiz.html">Quiz</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <form class="was-validated bg-warning w-75 formOne">
+            <h4>Please fill out all the fields.</h4>
+            <div class="mt-3 mb-3">
+                <label for="Q-One" class="form-label">Do you think all whites are racist?</label>
+                <select name="" id="racism" class="form-control" required>
+                    <option value="">Select an Option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+             
+            </div>
+
+            <div class="mt-3 mb-3">
+                <label for="Q-One" class="form-label">Do you believe that CNN, The Washington Post, The New York Times and the rest of the mainstream media are biased toward the left or try to present the news as accurately as possible?</label>
+                <select name="" id="bias" class="form-control" required>
+                    <option value="">Select an Option</option>
+                    <option value="Yes">They are biased towards the left</option>
+                    <option value="No">They present information as accurately as possible</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              
+            </div>
+
+            <div class="mt-3 mb-3">
+                <label for="Q-One" class="form-label">Could a good person have voted for Donald Trump in 2020?</label>
+                <select name="" id="trump" class="form-control" required>
+                    <option value="">Select an Option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              
+            </div>
+
+            <div class="mt-3 mb-3">
+                <label for="Q-One" class="form-label">Should America have full control over its borders to prevent illegal immigration?</label>
+                <select name="" id="border" class="form-control" required>
+                    <option value="">Select an Option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+           
+            </div>
+
+            <div class="mt-3 mb-3">
+                <label for="Q-One" class="form-label">Should biological males who identify as females be allowed to compete against biological females in sports?</label>
+                <select name="" id="sports" class="form-control" required>
+                    <option value="">Select an Option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              
+            </div>
+
+            <div class="mt-3 mb-3">
+                <label for="Q-One" class="form-label">Should children of all ages be allowed to decide what gender they identify as?</label>
+                <select name="" id="gender" class="form-control" required>
+                    <option value="">Select an Option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="Not all">Not all ages, but yes for certain ages</option>
+                </select>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <div class="liberal">
+            <img src="img/liberal.jpg" alt="">
+            <h3 class="text-center bg-danger note">You are a Liberal!</h3>
+        </div>
+
+        <div class="conservative">
+            <img src="img/conservative.jpg" alt="">
+            <h3 class="text-center bg-primary note">You are a Conservative!</h3>
+        </div>
+
+        <div class="moderate">
+            <img src="img/moderate.jpg" alt="">
+            <h3 class="text-center bg-warning note">You are Moderate</h3>
+        </div>
+
+        <div class="footer bg-dark ">
+            <p class="text-center">©Copyright 2023 by TK</p>
+        </div>
+    </div>
+</body>
+</html>
